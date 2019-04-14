@@ -7,13 +7,22 @@ var alert;
 
 var FirstName = 'John';
 var LastName = 'Smith';
-var Age = 28;
+var AgeJohn = 28;
 var Job = 'teacher';
-console.log(FirstName + ' ' + LastName + ' is a ' + Age + ' year old ' + Job);
+console.log(FirstName + ' ' + LastName + ' is a ' + AgeJohn + ' year old ' + Job);
 
-var firstName, lastName, age, job;
+var firstName, lastName, ageSamantha, job;
 firstName = 'Samantha';
 lastName = 'Jones';
-age = 27;
+ageSamantha = 27;
 job = 'driver';
-alert(firstName + ' ' + lastName + ' is a ' + age + ' year old ' + job);
+alert(firstName + ' ' + lastName + ' is a ' + ageSamantha + ' year old ' + job);
+
+
+console.log('Is Samantha older than John?');
+console.log(ageSamantha > AgeJohn);
+
+
+
+var ageCheck = ageSamantha > AgeJohn;
+console.log('Is Samantha older than John?' + ' ' + ageCheck);
