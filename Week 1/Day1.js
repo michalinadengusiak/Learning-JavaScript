@@ -1,6 +1,6 @@
 
 ////Basic JavaScript
-/*
+
 var console;
 var alert;
 var prompt;
@@ -41,4 +41,3 @@ console.log('John was born in the year ' + bornJohn + '. Whilst Samantha was bor
 console.log(typeof ageCheck);
 console.log(typeof ageSamantha);
 console.log(typeof firstName);
-*/

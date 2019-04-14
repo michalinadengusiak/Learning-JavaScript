@@ -26,40 +26,25 @@ x *= 2;
 console.log(x);
 x += 10;
 console.log(x);
-x++; //  means x + 1
+x++;  //  means x + 1
+console.log(x);
 
 
+var firstName = 'John';
+var civilStatus = 'singlw';
+
+if (civilStatus === 'married') {
+    console.log(firstName + ' is married!');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}
 
 
+var isMarried = false;
+if (isMarried) {
+    console.log(firstName + ' is married!');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-jjj
