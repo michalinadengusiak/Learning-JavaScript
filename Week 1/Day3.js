@@ -34,8 +34,12 @@ if (age >= 18) {
         case 'teacher':
             console.log(firstName + ' teaches kids how to code.');
             
+            break;
+            
         case 'driver':
             console.log(firstName + 'drives an uber in Lisbon.');
+            
+            break;
             
         case designer:
             console.log(firstName + ' designs beautiful websites.');
@@ -44,4 +48,11 @@ if (age >= 18) {
             
         default:
             console.log(firstName + 'does not work.');
+}
+    
+    
+    
+    
+    switch(true) {
+            
     }
