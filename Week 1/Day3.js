@@ -50,9 +50,6 @@ if (age >= 18) {
             console.log(firstName + 'does not work.');
 }
     
-    
-    
-    
     switch(true) {
             
     }
