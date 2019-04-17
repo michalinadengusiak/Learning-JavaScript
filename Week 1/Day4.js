@@ -21,8 +21,3 @@ if (height == '23') {
 } else if (height === '23') {
     console.log('The operator === does NOT do type coercion!!');
 }
-
-
-
-
-
