@@ -20,7 +20,7 @@ console.log('Is Mark\'s BMI greater than John\'s? ' + checkBIM);
 
 
 // Challenge 2
-
+/*
 var console;
 
 var JohnAverage = (89 + 120 + 103) / 3;
@@ -42,14 +42,33 @@ if (TheResult === true) {
 } else {
     console.log('John is BETTER at basketball than Mike!!!!');
 }
+*/
 
+// Coding Challenge 3
+var console;
+var bills = [124, 48, 268];
+console.log(bills);
 
+var tips = [];
+var i;
+for (i = 0; i < bills.length; i++) {
+    if (bills[i] < 50) {
+        tips[i] = Math.round(bills[i] * 0.2);
+}   else if (bills[i] <= 200) {
+        tips[i] = Math.round(bills[i] * 0.15);
+}   else if (bills[i] > 200) {
+        tips[i] = Math.round(bills[i] * 0.1);
+}
+}
 
+console.log(tips);
 
+var totals = [];
+for (i = 0; i < bills.length; i++) {
+  totals[i] = bills[i] + tips[i]
+}
 
-
-
-
+console.log(totals);
 
 
 
