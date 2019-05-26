@@ -45,7 +45,7 @@ if (TheResult === true) {
 */
 
 // Coding Challenge 3
-var console;
+/*var console;
 var bills = [124, 48, 268];
 console.log(bills);
 
@@ -69,11 +69,22 @@ for (i = 0; i < bills.length; i++) {
 }
 
 console.log(totals);
+*/
 
+//Coding Challenge 4
+var console;
 
+var Mark = {
+    firstName: 'Mark',
+    lastName: 'Papadum',
+    height: 1.33,
+    mass: 56,
+    BMI = function () {
+    }
+};
 
-
-
+Mark.BMI();
+console.log(Mark);
 
 
 
